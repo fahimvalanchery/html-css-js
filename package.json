@@ -1,0 +1,11 @@
+{
+  "name": "assignment_01",
+  "version": "1.0.0",
+  "description": "This is the my first assignment for ICT Academy of Kerala.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fahimvalanchery",
+  "license": "ISC"
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEAN</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="myscript.js"></script>
+
+</head>
+<body>
+    
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="active navbar-brand ">MEAN Stack</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="registration.html">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+            <p style="text-align: center"> <strong> For MEAN Stack Course  Register Here</strong></p>
+  
+        <div class="container">
+            <div class="row">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="panel-title">Registration Form</div>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 col-lg-6">
+                                    <div class="form-group required">
+                                        First Name: 
+                                        <input type="text" placeholder="Enter your First Name"  id="first_name" class="form-control input-sm" required>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-lg-6">
+                                    <div class="from-group">
+                                        Second Name:
+                                        <input type="text" placeholder="Enter your Second Name" id="last_name" class="form-control input-sm" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Gender:
+                                        <select required id="gend" class="form-control input-sm" >
+                                            <option value="">Select Gender</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Date of Birth:
+                                        <input type="date"  id="date_of_birth" class="form-control input-sm" max="2018-09-30" required>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Phone Number:
+                                        <input type="number" placeholder="Enter your Phone Number" id="phone_number" class="form-control input-sm" pattern="[789][0-9]{9}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        Place:
+                                        <input type="text" placeholder="Enter Your Place" id="place" class="form-control input-sm" required>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-lg-6">
+                                        <div class="form-group">
+                                                Select your District:
+                                                <select required id="district" class="form-control input-sm">
+                                                    <option value="">Select District</option>
+                                                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                                                    <option value="Kollam">Kollam</option>
+                                                    <option value="Pathanamthitta">Pathanamthitta</option>
+                                                    <option value="Alappuzha">Alappuzha</option>
+                                                    <option value="Kottayam">Kottayam</option>
+                                                    <option value="Idukki">Idukki</option>
+                                                    <option value="Ernamkulam">Ernamkulam</option>
+                                                    <option value="Thrissur">Thrissur</option>
+                                                    <option value="Palakkad">Palakkad</option>
+                                                    <option value="Malappuram">Malappuram</option>
+                                                    <option value="Kozhikkode">Kozhikkode</option>
+                                                    <option value="Wayanad">Wayanad</option>
+                                                    <option value="Kannur">Kannur</option>
+                                                    <option value="Kasargod">Kasargod</option>
+                                                </select>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12 col-lg-12">
+                                    <div class="form-group">
+                                        E-Mail:
+                                        <input type="email" placeholder="Enter your E-Mail Address" id="e_mail" class="form-control input-sm"required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Username:
+                                        <input type="text" placeholder="Enter a Username" id="user_name" class="form-control input-sm"required>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Password:
+                                        <input type="password" placeholder="Enter a Password" id="passwrd" class="form-control input-sm" required>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4 col-lg-4">
+                                    <div class="form-group">
+                                        Confirm Password:
+                                        <input type="password" placeholder="Confirm your Password" id="c_passwrd" class="form-control inpu-sm" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12 col-lg-12">
+                                    <button type="reset" class="btn btn-default btn-group buttons" >Reset</button>
+                                    <button type="submit" class="btn btn-primary btn-group buttons " onclick="bt_submit();">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+   
+   
+</body>
+</html>
